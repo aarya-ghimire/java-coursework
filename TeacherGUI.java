@@ -688,7 +688,7 @@ public class TeacherGUI {
     // Teacher Id is entered along with Graded Score, Department and Years of
     // Experience
     private void gradeAssignment() {
-        // Display a confirmation dialog
+        // Display a confirmation dialog box while grading assignment
         int choice = JOptionPane.showConfirmDialog(frame, "Are you sure you want to grade the assignment?",
                 "Confirmation", JOptionPane.YES_NO_OPTION);
 
