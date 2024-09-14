@@ -944,6 +944,7 @@ public class TeacherGUI {
         return false;
     }
 
+    // Main method
     public static void main(String[] args) {
         new TeacherGUI();
     }
