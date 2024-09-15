@@ -872,6 +872,7 @@ public class TeacherGUI {
         }
     }
 
+    //
     // Declaring a private method to Display the details of Tutor which will be
     // called whenDisplay Tutor button is pressed which will display the information
     // relating to the Tutor
@@ -903,7 +904,7 @@ public class TeacherGUI {
     }
 
     // Declaring a private method to Clear the details entered in textfields
-    // whichwill be called when Clear button is pressed which will clear all the
+    // which will be called when Clear button is pressed which will clear all the
     // input values in the textfield
     private void clear() {
         teacherIdTxt.setText("");
