@@ -814,6 +814,7 @@ public class TeacherGUI {
     // Tutor button is pressed which will remove thetutor if appropriate Teacher Id
     // has been entered
     private void removeTutor() {
+        // Using try catch to catch the exception
         try {
             int id = Integer.parseInt(tIdremoveTXT.getText());
             for (Teacher t1 : teacherList) {
