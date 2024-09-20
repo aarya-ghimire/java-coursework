@@ -848,6 +848,7 @@ public class TeacherGUI {
     // called when Display Lecturer button is pressed which will display the
     // information relating to the Lecturer
     private void displayLecturerGUI() {
+        // Using try catch block to catch exception
         try {
             int id = Integer.parseInt(teacherIdTxt.getText());
             boolean lecturerFound = false;
