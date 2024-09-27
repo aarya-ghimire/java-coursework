@@ -835,7 +835,7 @@ public class TeacherGUI {
                     }
                 }
             }
-            // If no matching tutor is found
+            // If no matching tutor is found, this message will be displayed
             JOptionPane.showMessageDialog(frame, "No tutor found with the ID " + id + " is found", "Error",
                     JOptionPane.ERROR_MESSAGE);
         } catch (IllegalArgumentException e) {
